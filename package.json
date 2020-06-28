@@ -4,7 +4,8 @@
   "description": "Node.js API using CLEAN Architecture, Typescript and TDD",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:staged": "jest"
   },
   "repository": {
     "type": "git",
