@@ -4,7 +4,8 @@
   "description": "Node.js API using CLEAN Architecture, Typescript and TDD",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --passWithNoTests",
+    "test:staged": "jest  --passWithNoTests"
   },
   "repository": {
     "type": "git",
@@ -12,9 +13,26 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/GhostDovahkiin/Clean-Node-API/issues"
   },
-  "homepage": "https://github.com/GhostDovahkiin/Clean-Node-API#readme"
+  "homepage": "https://github.com/GhostDovahkiin/Clean-Node-API#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.3",
+    "@types/node": "^14.0.14",
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "eslint": "^7.3.1",
+    "eslint-config-standard-with-typescript": "^18.0.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "git-commit-msg-linter": "^2.4.4",
+    "husky": "^4.2.5",
+    "jest": "^26.1.0",
+    "lint-staged": "^10.2.11",
+    "ts-jest": "^26.1.1",
+    "typescript": "^3.9.5"
+  }
 }
