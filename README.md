@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="CLEAN Architecture" title="#CleanArchitecure" src="./assets/architecture.png" />
+    <img alt="CLEAN Architecture" title="#CleanArchitecure" src="./assets/architecture.jpg" />
 </h1>
 
 <p align="center">
